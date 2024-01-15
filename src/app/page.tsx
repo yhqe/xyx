@@ -1,18 +1,16 @@
 'use client';
 
 // Edit video to play here
-const videoToPlay = 'holdtht.mp4';
+const videoToPlay = 'trenches.mp4';
 // Edit the artist and song title here
-const videoTitleArtist = 'maajins - hold tht'
+const videoTitleArtist = 'osamason - trenches'
 
 // Imports
 import Head from 'next/head';
 import { useRouter } from "next/router";
 import { useCallback, useEffect, useRef, useState } from 'react';
 import {
-  faArtstation,
   faInstagram,
-  faDeviantart,
   faDiscord,
   faGithub,
   faSteam,
@@ -101,10 +99,6 @@ export default function Home() {
   // @ts-ignore
   return (
     <>
-      <Head>
-        <title>DEADCELL</title>
-        <meta name="description" content="" />
-      </Head>
 
       <div className="absolute z-50 h-2 w-full bg-black/25 shadow-xl backdrop-blur">
         <div
@@ -116,13 +110,17 @@ export default function Home() {
       <div className="relative flex h-screen items-center justify-center text-xl lg:text-base">
         {muted && (
           <>
-            <div className="pointer-events-none absolute left-1/2 top-1/3 -translate-x-1/2 -translate-y-1/2">
-              <span className="font-mono font-medium text-white [text-shadow:_1px_2px_6px_rgb(0_0_0_/_100%)]">
+            <div className="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+              <span className="font-mono font-small text-white [text-shadow:_1px_2px_6px_rgb(0_0_0_/_100%)]">
                 「 click to unmute 」
               </span>
             </div>
           </>
         )}
+
+        <span className="font-mono font-medium text-white [text-shadow:_1px_2px_6px_rgb(0_0_0_/_100%)] pointer-events-none absolute left-1/2 top-1/3 -translate-x-1/2 -translate-y-1/2">
+          xylodine
+        </span>
 
         <div className="-translate-y-1/3[-14px] animate-gradient-y animate-gradient-x absolute left-1/2 top-1/3 z-50 mt-4 -translate-x-1/2 rounded bg-gradient-to-b from-[#C07A89]/50 via-[#C07A89]/50 to-pink-500/50 px-4 py-3.5 shadow-xl backdrop-blur">
           <div className="grid grid-cols-4 gap-4 text-white lg:text-lg">
