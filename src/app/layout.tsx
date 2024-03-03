@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'xylodine',
   description: '@xylodine on everythng',
-  icons: 'https://cdn.discordapp.com/attachments/1176888417393573889/1195850489909219410/Peter_Griffins_Medallion_-_Medallion_-_Fortnite.png?ex=65b57d8e&is=65a3088e&hm=7e674393b630c10da84554f38158747bfa7be5c3162c34e74a761cceeb8dc02c&'
+  icons: 'https://cdn.discordapp.com/attachments/1208672869039480853/1213651319114567740/95b3c4e67790b07c332549aabae7041f-removebg-preview.png?ex=65f63fdf&is=65e3cadf&hm=2e1ce43ff10cc594e7afc100e4ff50f42476b6d949ddbcb3f4dc681539242d2a&'
 };
 
 export default function RootLayout({

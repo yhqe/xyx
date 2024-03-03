@@ -1,9 +1,9 @@
 'use client';
 
 // Edit video to play here
-const videoToPlay = 'trenches.mp4';
+const videoToPlay = 'succubus.mp4';
 // Edit the artist and song title here
-const videoTitleArtist = 'osamason - trenches'
+const videoTitleArtist = 'ken carson - succubus'
 
 // Imports
 import Head from 'next/head';
@@ -35,7 +35,7 @@ export default function Home() {
     const video = videoRef.current;
 
     if (video) {
-      video.volume = 0.37;
+      video.volume = 0.25;
 
       // play() returns a promise which gets rejected if there is an autoplay policy
       // in place, which is enabled by default in pretty much every browser, one
@@ -108,7 +108,7 @@ export default function Home() {
       </div>
 
       <div className="relative flex h-screen items-center justify-center text-xl lg:text-base">
-        {muted && (
+      {muted && (
           <>
             <div className="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
               <span className="font-mono font-small text-white [text-shadow:_1px_2px_6px_rgb(0_0_0_/_100%)]">
@@ -122,7 +122,7 @@ export default function Home() {
           xylodine
         </span>
 
-        <div className="-translate-y-1/3[-14px] animate-gradient-y animate-gradient-x absolute left-1/2 top-1/3 z-50 mt-4 -translate-x-1/2 rounded bg-gradient-to-b from-[#C07A89]/50 via-[#C07A89]/50 to-pink-500/50 px-4 py-3.5 shadow-xl backdrop-blur">
+        <div className="-translate-y-1/3[-14px] animate-gradient-y animate-gradient-x absolute left-1/2 top-1/3 z-50 mt-4 -translate-x-1/2 bg-gradient-to-b from-[#C07A89]/50 via-[#C07A89]/50 to-pink-500/50 px-4 py-3.5 shadow-xl backdrop-blur">
           <div className="grid grid-cols-4 gap-4 text-white lg:text-lg">
             <div
               className="transition-colors ease-in hover:text-[#C07A89]"
