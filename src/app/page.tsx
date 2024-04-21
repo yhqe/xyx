@@ -1,9 +1,9 @@
 'use client';
 
 // Edit video to play here
-const videoToPlay = 'succubus.mp4';
+const videoToPlay = 'uno.mp4';
 // Edit the artist and song title here
-const videoTitleArtist = 'ken carson - succubus'
+const videoTitleArtist = 'osamason - uno'
 
 // Imports
 import Head from 'next/head';
@@ -102,7 +102,7 @@ export default function Home() {
 
       <div className="absolute z-50 h-2 w-full bg-black/25 shadow-xl backdrop-blur">
         <div
-          className="absolute h-2 bg-[#C07A89] shadow-xl"
+          className="absolute h-2 bg-[#bdbdbd] shadow-xl"
           style={{ width: `${(currentTime / duration) * 100}%` }}
         />
       </div>
@@ -122,10 +122,10 @@ export default function Home() {
           xylodine
         </span>
 
-        <div className="-translate-y-1/3[-14px] animate-gradient-y animate-gradient-x absolute left-1/2 top-1/3 z-50 mt-4 -translate-x-1/2 bg-gradient-to-b from-[#C07A89]/50 via-[#C07A89]/50 to-pink-500/50 px-4 py-3.5 shadow-xl backdrop-blur">
+        <div className="-translate-y-1/3[-14px] animate-gradient-y animate-gradient-x absolute left-1/2 top-1/3 z-50 mt-4 -translate-x-1/2 bg-gradient-to-b from-[#bdbdbd]/50 via-[#737373]/50 to-white-500/50 px-4 py-3.5 shadow-xl backdrop-blur">
           <div className="grid grid-cols-4 gap-4 text-white lg:text-lg">
             <div
-              className="transition-colors ease-in hover:text-[#C07A89]"
+              className="transition-colors ease-in hover:text-[#bdbdbd]"
               onMouseEnter={(event) => handleIconMouseEnter(event, 'github')}
               onMouseLeave={handleIconMouseLeave}
             >
